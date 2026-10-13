@@ -5,7 +5,7 @@ The official Homebrew tap for [StillSwitch](https://stillswitch.app/), a native 
 Requires an Apple Silicon Mac running macOS 15 or later.
 
 ```sh
-brew install --cask stillswitch/tap/stillswitch
+brew install stillswitch/tap/stillswitch
 ```
 
 Open StillSwitch from Applications and allow Accessibility to switch windows. Allow Screen Recording for local window previews. See the [Guide & FAQ](https://stillswitch.app/guide/) for installation, licensing, and support.
