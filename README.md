@@ -20,3 +20,5 @@ brew upgrade --cask --greedy stillswitch
 ```
 
 This repository contains only the public distribution recipe. Downloads come from the official StillSwitch website and are signed and notarized for macOS.
+
+The distribution server counts archive requests with a Homebrew source label; it does not report whether installation completed. No analytics code is added to this cask or the Mac app. See the [website privacy notice](https://stillswitch.app/privacy/) for details.

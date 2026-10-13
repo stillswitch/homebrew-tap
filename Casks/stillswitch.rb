@@ -2,7 +2,7 @@ cask "stillswitch" do
   version "1.0.2,83"
   sha256 "917313fb11da2f8fe4502759cecd7b11e9cc733127a8b88db29dcdfbf18ffc81"
 
-  url "https://stillswitch.app/downloads/v1/StillSwitch-#{version.csv.first}-#{version.csv.second}-arm64.zip"
+  url "https://stillswitch.app/downloads/v1/StillSwitch-#{version.csv.first}-#{version.csv.second}-arm64.zip?source=homebrew"
   name "StillSwitch"
   desc "Window switcher with zero configuration"
   homepage "https://stillswitch.app/"
