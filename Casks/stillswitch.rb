@@ -7,6 +7,11 @@ cask "stillswitch" do
   desc "Window switcher with zero configuration"
   homepage "https://stillswitch.app/"
 
+  livecheck do
+    url "https://stillswitch.app/updates/v1/appcast.xml"
+    strategy :sparkle
+  end
+
   auto_updates true
   depends_on arch: :arm64
   depends_on macos: :sequoia
