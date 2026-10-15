@@ -1,6 +1,6 @@
 cask "stillswitch" do
-  version "1.0.3,84"
-  sha256 "dc7bb35327e0c064dd6df7704ff15fac261908b1fdf9069052d7f1ae9e9599b6"
+  version "1.0.4,85"
+  sha256 "89b4609ede484f66bf43fc0582085beb894f1d2c4819c61b0fa9e8e6311d9b04"
 
   url "https://stillswitch.app/downloads/v1/StillSwitch-#{version.csv.first}-#{version.csv.second}-arm64.zip?source=homebrew"
   name "StillSwitch"
